@@ -1,10 +1,6 @@
 h2,
-p {
-  font-family: Poppins;
-  color:#172b4d;
-  margin-left: 8vw;
-}
-
+p { font-family: Poppins, sans-serif; color:#172b4d;  margin-left: 8vw; }
+   
 p {
   font-size: 12px;
 }
@@ -21,19 +17,18 @@ body {
   margin-top: 10vh;
 }
 
-  .logo {
-  align-content: left top;
+.logo {
   padding-top: 2vh;
 }
 
-  .connect {
+.connect {
   color:#6070ff;
 }
 
-  .navigation {
+.navigation {
   background-color:white;
 }
 
-  .bg {
+.bg {
   z-index: -3;
 }
