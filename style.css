@@ -1,12 +1,12 @@
 h2,
 p {
-    font-family: Poppins;
-color: #172b4d;
-margin-left: 8vw;
+ font-family: Poppins;
+ color: #172b4d;
+ margin-left: 8vw;
 }
 
 p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 h2 {
@@ -14,26 +14,26 @@ h2 {
 }
 
 body {
-    background-image: url("bg1.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-attachment: fixed;
-    margin-top: 10vh; 
+ background-image: url("bg1.png");
+ background-repeat: no-repeat;
+ background-position: left top;
+ background-attachment: fixed;
+ margin-top: 10vh; 
   }
 
   .logo {
-    align-content: left top;
-    padding-top: 2vh;
+ align-content: left top;
+ padding-top: 2vh;
   }
 
   .connect {
-      color:#6070ff;
+ color:#6070ff;
   }
 
   .navigation {
-      background-color: white;
+ background-color: white;
   }
 
   .bg {
-      z-index: -3;
+ z-index: -3;
   }
