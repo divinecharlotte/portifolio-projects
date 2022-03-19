@@ -1,5 +1,9 @@
 h2,
-p { font-family: Poppins, sans-serif; color:#172b4d;  margin-left: 8vw; }
+p { 
+  font-family: Poppins, sans-serif; 
+  color: #172b4d; 
+  margin-left: 8vw;
+}
    
 p {
   font-size: 12px;
@@ -22,11 +26,11 @@ body {
 }
 
 .connect {
-  color:#6070ff;
+  color: #6070ff;
 }
 
 .navigation {
-  background-color:white;
+  background-color: white;
 }
 
 .bg {
