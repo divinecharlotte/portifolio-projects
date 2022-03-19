@@ -2,20 +2,14 @@ h2 {
   font-family: Poppins, sans-serif;
   color: #172b4d; 
   margin-left: 8vw;
+  padding-top: 3vh;
 }
 
 p { 
   font-family: Poppins, sans-serif;
   color: #172b4d;
   margin-left: 8vw;
-}
-
-p {
   font-size: 12px;
-}
-
-h2 {
-  padding-top: 3vh;
 }
 
 body {
