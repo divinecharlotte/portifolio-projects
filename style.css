@@ -1,33 +1,39 @@
-h2,p {
-    font-family:poppins;
-color: #172B4D;
+h2,
+p {
+    font-family: Poppins;
+color: #172b4d;
 margin-left: 8vw;
-
 }
-p{
+
+p {
     font-size: 12px;
 }
-h2{
+
+h2 {
     padding-top: 3vh;
 }
 
-body{
+body {
     background-image: url("bg1.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-attachment: fixed;
     margin-top: 10vh; 
   }
-  .logo{
+
+  .logo {
     align-content: left top;
     padding-top: 2vh;
   }
-  .connect{
-      color:#6070FF;
+
+  .connect {
+      color:#6070ff;
   }
-  .navigation{
+
+  .navigation {
       background-color: white;
   }
-  .bg{
+
+  .bg {
       z-index: -3;
   }
