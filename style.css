@@ -1,6 +1,10 @@
-h2,
-p
-{ 
+h2 { 
+  font-family: Poppins, sans-serif;
+  color: #172b4d;
+  margin-left: 8vw;
+}
+
+p { 
   font-family: Poppins, sans-serif;
   color: #172b4d;
   margin-left: 8vw;
