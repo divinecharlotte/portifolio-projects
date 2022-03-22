@@ -11,8 +11,8 @@ html {
 body {
   width: 375px;
   height: 718px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   font-size: 1.5rem;
   color: #344563;
   line-height: 2.4rem;
@@ -106,7 +106,7 @@ nav .fa {
   justify-items: flex-end;
   justify-content: space-between;
  top: 470px;
- margin: 40px 0px;
+ margin: 40px 0;
 }
 
 #twitter {
