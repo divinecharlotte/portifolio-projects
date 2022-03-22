@@ -9,12 +9,17 @@ html {
 }
 
 body {
+  width: 375px;
+  height: 718px;
+  left: 0px;
+  top: 0px;
   font-size: 1.5rem;
   color: #344563;
   line-height: 2.4rem;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   margin: 0;
+
 }
 
 h1,
@@ -95,13 +100,72 @@ nav .fa {
 
 }
 
-.icones {
+.social-icons ul {
+  list-style-type: none;
+  display: inline-flex;
+  justify-items: flex-end;
+  justify-content: space-between;
+ top: 470px;
+ margin: 40px 0px;
+}
+
+#twitter {
   position: absolute;
-  top : 500px;
+  width: 19.99px;
+  height: 19.99px;
+  top: 520px;
+  left: 24px;
+}
+
+#i {
+  position: absolute;
+  width: 4.97px;
+  height: 13.72px;
+  top: 526.28px;
+  left: 63px;
+}
+
+#dot {
+  position: absolute;
+  height: 4.97px;
+  width: 4.97px;
+  top: 520px;
+  left: 63px;
+}
+
+#medium {
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  top: 522px;
+  left: 103px;
+}
+
+#n {
+  position: absolute;
+  width: 12.71px;
+  height: 16.97px;
+  top: 523.03px;
+  left: 70.29px;
+}
+
+#github {
+  position: absolute;
+  width: 17.99px;
+  height: 20px;
+  top: 520px;
+  left: 143px;
+}
+
+#two-fingers {
+  position: absolute;
+  width: 14.17px;
+  height: 20px;
+  top: 520px;
+  left: 180px;
+}
+
+.flex-box {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-evenly;
-
-
+  flex-direction: column;
 }
