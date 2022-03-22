@@ -19,7 +19,6 @@ body {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   margin: 0;
-
 }
 
 h1,
@@ -92,20 +91,18 @@ nav .fa {
   text-transform: uppercase;
   position: relative;
   text-decoration: none;
-  top : -180px;
+  top: -180px;
   left: 0;
   flex-direction: row;
-
 }
-
 
 .social-icons ul {
   list-style-type: none;
   display: inline-flex;
   justify-items: flex-end;
   justify-content: space-between;
- top: 470px;
- margin: 100px 0;
+  top: 470px;
+  margin: 100px 0;
 }
 
 #twitter {
