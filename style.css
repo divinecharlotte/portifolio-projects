@@ -92,13 +92,12 @@ nav .fa {
   text-transform: uppercase;
   position: relative;
   text-decoration: none;
-  position: absolute;
   top : -180px;
-  left: opx;
+  left: 0;
   flex-direction: row;
- 
 
 }
+
 
 .social-icons ul {
   list-style-type: none;
@@ -106,7 +105,7 @@ nav .fa {
   justify-items: flex-end;
   justify-content: space-between;
  top: 470px;
- margin: 40px 0;
+ margin: 100px 0;
 }
 
 #twitter {
