@@ -10,7 +10,7 @@ html {
 
 body {
   width: 375px;
-  height: 718px;
+  height: 618px;
   left: 0;
   top: 0;
   font-size: 1.5rem;
@@ -47,6 +47,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 20px;
+  height: 40px;
 }
 
 .header-part a {
@@ -64,104 +65,49 @@ nav .fa {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: #fff url(./header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
+  height: 600px;
   width: 100%;
   border-bottom-left-radius: 50px;
+  background-position: center;
+  background-size: cover;
 }
 
 .headline-part h1 {
-  bottom: 120px;
-  margin-left: 24px;
-  position: relative;
   line-height: 52px;
+  width: 90%;
 }
 
 .headline-part p {
-  position: relative;
-  bottom: 145px;
-  margin: 20px;
+  line-height: 22px;
+  width: 90%;
 }
 
-.connect {
+.connect a {
   font-weight: 500;
   color: #7f8cff;
-  text-transform: uppercase;
-  position: relative;
+  width: 90%;
   text-decoration: none;
-  top: -180px;
-  left: 0;
-  flex-direction: row;
+}
+
+.social-icons {
+  width: 90%;
 }
 
 .social-icons ul {
-  list-style-type: none;
-  display: inline-flex;
-  justify-items: flex-end;
-  justify-content: space-between;
-  top: 470px;
-  margin: 100px 0;
-}
-
-#twitter {
-  position: absolute;
-  width: 19.99px;
-  height: 19.99px;
-  top: 520px;
-  left: 24px;
-}
-
-#i {
-  position: absolute;
-  width: 4.97px;
-  height: 13.72px;
-  top: 526.28px;
-  left: 63px;
-}
-
-#dot {
-  position: absolute;
-  height: 4.97px;
-  width: 4.97px;
-  top: 520px;
-  left: 63px;
-}
-
-#medium {
-  position: absolute;
-  width: 20px;
-  height: 16px;
-  top: 522px;
-  left: 103px;
-}
-
-#n {
-  position: absolute;
-  width: 12.71px;
-  height: 16.97px;
-  top: 523.03px;
-  left: 70.29px;
-}
-
-#github {
-  position: absolute;
-  width: 17.99px;
-  height: 20px;
-  top: 520px;
-  left: 143px;
-}
-
-#two-fingers {
-  position: absolute;
-  width: 14.17px;
-  height: 20px;
-  top: 520px;
-  left: 180px;
-}
-
-.flex-box {
   display: flex;
-  flex-direction: column;
+  column-gap: 20px;
+  align-items: center;
+  padding: 0;
+}
+
+.social-icons ul li {
+  list-style: none;
+  height: auto;
+}
+
+.social-icons ul li img {
+  width: 20px;
 }
