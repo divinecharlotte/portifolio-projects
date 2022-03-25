@@ -18,13 +18,18 @@ html {
   font-size: 62.5%;
 }
 
+.wrapper {
+  display: grid;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  margin: 20px;
+
+  /* margin: 20px; */
 }
 
 .box {
@@ -33,8 +38,13 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 10rem;
-  height: 57rem;
-  width: 34rem;
+  height: 66rem;
+
+  /* width: 327px; */
+
+  /* width: 34rem; */
+  margin-left: 12px;
+  margin-right: 39px;
 }
 
 .picture {
@@ -76,7 +86,7 @@ h4 {
 }
 
 .container {
-  padding: 0 24px 0 24px;
+  padding: 30px 0 30px 0;
 }
 
 .box-content {
@@ -110,7 +120,8 @@ h4 {
   border-radius: 10px;
   color: #6070ff;
   font-size: 1.2rem;
-  padding: 1px 10px;
+  padding: 1px 15px;
+  font-weight: 500;
 }
 
 .about {
@@ -147,9 +158,12 @@ h4 {
   flex-direction: column;
   background: var(--body-color);
   margin-top: 10rem;
-  height: 120vh;
+
+  /* height: 120vh; */
   width: 100vw;
   border-top-right-radius: 100px;
+  margin-left: 12px;
+  line-height: 24px;
 }
 
 .about-me h2 {
@@ -223,10 +237,11 @@ h4 {
   display: flex;
   flex-direction: column;
   padding: 0 24px 0 24px;
+  font-weight: 500;
 }
 
 .languages li img {
-  /* width: 100%; */
+  width: 100%;
 }
 
 .arrow {
