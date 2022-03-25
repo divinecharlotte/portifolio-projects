@@ -124,10 +124,13 @@
   .main-container {
     border: 1px solid #efe1e6;
     background: #fff;
-    box-sizing: border-box;
+
+    /* box-sizing: border-box; */
     border-radius: 16px;
     padding: 16px 16px 0 16px;
     margin-bottom: 88px;
+    display: grid;
+    grid-template-columns: auto;
   }
 
   .structure {
@@ -173,7 +176,8 @@
 
   .about-me h2 {
     top: 0;
-    margin-left: 24px;
+
+    /* margin-left: 24px; */
     font-size: 40px;
     height: 90px;
     line-height: 52px;
@@ -193,8 +197,8 @@
 
   .abm {
     padding-left: 0;
-    padding-right: 118px;
     line-height: 40px;
+    margin: 0;
   }
 
   .about2 {
@@ -210,7 +214,8 @@
     text-align: center;
     width: 170px;
     height: 48px;
-    margin-left: 24px;
+
+    /* margin-left: 24px; */
   }
 
   .about2:active {
