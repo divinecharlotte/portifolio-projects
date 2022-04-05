@@ -26,13 +26,19 @@
   }
 
   .header-part {
-    display: flex;
-    padding: 26px;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
     padding-bottom: 20px;
     height: 40px;
     background-color: white;
+    position: fixed;
+  }
+
+  .Charlotte {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
   }
 
   .header-part a {
@@ -60,7 +66,7 @@
     background-position: center;
     background-size: cover;
     font-family: "Poppins", sans-serif;
-    margin-top: -1px;
+    margin: -1px 0 114px 0;
   }
 
   .headline-part h1 {
@@ -115,17 +121,15 @@
 
   .box {
     background: #f7f7f9;
-    padding: 114px 24px 0 24px;
+    width: 91%;
+    margin: auto;
     font-family: "Poppins", sans-serif;
     border-bottom-left-radius: 50px;
-    overflow: hidden;
   }
 
   .main-container {
     border: 1px solid #efe1e6;
     background: #fff;
-
-    /* box-sizing: border-box; */
     border-radius: 16px;
     padding: 16px 16px 0 16px;
     margin-bottom: 88px;
@@ -136,7 +140,7 @@
   .structure {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 12px;
   }
 
   .transpalent {
@@ -175,9 +179,6 @@
   }
 
   .about-me h2 {
-    top: 0;
-
-    /* margin-left: 24px; */
     font-size: 40px;
     height: 90px;
     line-height: 52px;
@@ -214,8 +215,6 @@
     text-align: center;
     width: 170px;
     height: 48px;
-
-    /* margin-left: 24px; */
   }
 
   .about2:active {
