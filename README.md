@@ -10,9 +10,15 @@
 To get a local copy up and running follow these simple example steps.
 
 
+## Getting Started
 
-### Setup 
-clone the project or download the files to ypour local environment.
+To get a local copy up and running follow these simple example steps.
+
+- copy this link `https://github.com/divinecharlotte/portifolio-projects.git`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/divinecharlotte/portifolio-projects.git`.
+- go to the repository folder in your command prompt `cd portifolio-projects`
 s
 ## Authors
 
