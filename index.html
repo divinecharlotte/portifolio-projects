@@ -2,295 +2,280 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Charlotte Divine</title>
-    <!-- Fonts -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <!-- Stylesheet -->
+  <title>portifolio</title>
 
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Icons Script -->
-    <script src="https://kit.fontawesome.com/eb57cf8ccf.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <header class="header-part">
-        <div class="Charlotte ">
-
-            <a href="#">Charlotte</a>
-            <ul class="informations">
-                <li class="info"><a href="#">Portfolio</a></li>
-                <li class="info"><a href="#">About</a></li>
-                <li class="info"><a href="#">Contact</a></li>
+<body  id="portifolio" style="background-color: #f7f7f9;">
+  <nav class="navbar navbar-expand-md navbar-light bg-white" style="position: fixed;width: 100%;z-index:2;">
+    <div class="container xxl">
+      <a href="#intro" class="navbar-brand">
+        <span class="fw-bold text-primary">
+          charlotte
+        </span>
+      </a>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" id="intro" aria-current="page" href="#portifolio">portifolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">contact</a>
+              </li>
             </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+          </div>
         </div>
-    </header>
-    <section class="headline-part">
-        <h1>
-            I’m Charlotte, <br />
-            Glad to see
-            you!
-        </h1>
-        <p>
-            I’m a software developer! I can help you
-            build a product , feature or website. Look
-            through some of my work and
-            experience! If <br> you like  what you see and
-            have a project you need coded,don’t
-            hesitate to contact me.
+      </nav>
+  </nav>
+  
+  <div class="background">
+    <img src="./images/main_bg.png" class="img-fluid bg-white pb-5" style="width: 100%;height: 100vh;border-bottom-left-radius: 100px;">
+  </div>
+  <div id="intro" class="heading-content " style="width: 80%;margin: auto;" >
+      <h1>
+        <div class="class display-2 fw-bold">I’m charlotte, <br>
+          Glad to see you!</div>
+      </h1>
+      <p class=" fw-400">
+        I’m a software developer! I can help you build a product , feature or website Look through some of my work and
+        experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+      </p>
+      <p class="fw-500 fs-1.6 text-primary">
+        LET'S CONNECT
+      </p>
+      <div class="social-icons1 d-grid ">
+        <ul>
+          <li><a href="https://twitter.com/divine_maina"><img src="./images/./twitter.png" alt="twiter"></a></li>
+          <li><a href="https://www.linkedin.com/in/charlotte-divine-dusenge-31b19017a/"><img
+                src="./images/./Linkedinicon.png" alt="linkedhin"></a></li>
+          <li><a href="mvector"><img src="./images/./Vector.png" alt="Mvector"></a></li>
+          <li><a href="https://github.com/divinecharlotte"><img src="./images/./github.png" alt="github"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="about" class="row">
+<div class="col-lg-5 col-md-6-col-12">
+<img src="./images/SnapshootPortfolio(1).png">
+</div>
+<div class="col-lg-6 col-md-6-col-12">
+  <h2>Tonic</h2>
+  <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+  <button class="btn">
+    <a href="#">see project</a>
+  </button>
+</div>
+  </div> -->
+  <section>
+    <div class="card my-5 px-3 " style="width:85%; margin: auto;border-radius:16px">
+      <div class="row my-3 ">
+        
+        
+        <div class=" col-md"> <img class="small" src="images/SnapshootPortfolio(1).png" alt="tonic" style="width: 100%;"></div>
+        <div class="col-md py-2">
+          <h2 class="card-title fw-bold">Tonic</h2>
+
+          <div class="structure d-flex gap-2" style=" line-height: 16px;">
+            <h6 class="canopy">CANOPY</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent " font-color:primary>Back End Dev</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent">2015</h6>
+          </div>
+
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <div>
+            <ul class="flex-container d-flex justify-content-space-around"> 
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+          <a href="#" class="btn btn-light border-primary text-primary">see project</a>
+        </div>
+      </div>
+    </div>
+    <div class="card my-5 px-3 " style="width:85%; margin: auto;border-radius:16px">
+      <div class="row my-3 ">
+        <div class="col-md"> <img src="images/SnapshootPortfolio(2).png" alt="tonic"style="width: 100%;"></div>
+        <div class="col-md py-2">
+          <h2 class="card-title fw-bold">Multi-Post <br> Stories</h2>
+           
+          <div class="structure d-flex gap-2" style=" line-height: 16px;">
+            <h6 class="canopy">CANOPY</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent " font-color:primary>Back End Dev</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent">2015</h6>
+          </div>
+           
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <div>
+            <ul class="flex-container d-flex justify-content-space-around"> 
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+          <a href="#" class="btn btn-light border-primary text-primary">see project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card my-5 px-3 " style="width:85%; margin: auto;border-radius:16px">
+      <div class="row my-3 ">
+        <div class="col-md"> <img src="images/SnapshootPortfolio.png" alt="tonic"style="width: 100%;"></div>
+        <div class="col-md py-2">
+          <h2 class="card-title fw-bold">Tonic</h2>
+          
+          <div class="structure d-flex gap-2" style=" line-height: 16px;">
+            <h6 class="canopy">CANOPY</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent " font-color:primary>Back End Dev</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent">2015</h6>
+          </div>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <div>
+            <ul class="flex-container d-flex justify-content-space-around"> 
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+          <a href="#" class="btn btn-light border-primary text-primary">see project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card my-5 px-3 " style="width:85%; margin: auto;border-radius:16px">
+      <div class="row my-3 ">
+        <div class="col-md"> <img src="images/SnapshootPortfolio(3).png" alt="tonic"style="width: 100%;"></div>
+        <div class="col-md py-2">
+          <h2 class="card-title fw-bold">Multi-Post <br> Stories</h2>
+           
+          <div class="structure d-flex gap-2" style=" line-height: 16px;">
+            <h6 class="canopy">CANOPY</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent " font-color:primary>Back End Dev</h6>
+            <img src="./images/./counter.png" alt="counter" style="height:1%;">
+            <h6 class="transpalent">2015</h6>
+          </div>
+           
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <div>
+            <ul class="flex-container d-flex justify-content-space-around"> 
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+            </ul>
+        </div>
+          <a href="#" class="btn btn-light border-primary text-primary">see project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+
+    <div class="row  bg-white px-3   " style="border-top-right-radius: 100px;padding: 150px 0;width: 100%;margin: 0;">
+      <div id="about" class="col-md">
+        <h2 class="abm"style="font-size:40px;">
+          About <br> Myself
+        </h2>
+
+        <p class="text">
+          Hello I'm a software developer! I can help
+          you build a product , feature or website
+          Look through some of my work and
+          experience! If you like what you see and
+          have a project you need coded, don’t
+          hestiate to contact me.
         </p>
 
         <p class="connect"> <a href="#">LET'S CONNECT</a> </p>
-        <div class="social-icons1">
-            <ul>
-                <li><a href="https://twitter.com/divine_maina"><img src="./images/./twitter.png" alt="twiter"></a></li>
-                <li><a href="https://www.linkedin.com/in/charlotte-divine-dusenge-31b19017a/"><img
-                            src="./images/./Linkedinicon.png" alt="linkedhin"></a></li>
-                <li><a href="mvector"><img src="./images/./Vector.png" alt="Mvector"></a></li>
-                <li><a href="https://github.com/divinecharlotte"><img src="./images/./github.png" alt="github"></a></li>
-                <li><a href="angelist"><img src="./images/./angellist.png" alt="angellist"></a></li>
-            </ul>
+        <div class="social-icons1" style="margin-left:-40px ;">
+          <ul>
+            <li><a href="https://twitter.com/divine_maina"><img src="./images/./twitter.png" alt="twiter"></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/charlotte-divine-dusenge-31b19017a/"><img
+                  src="./images/./Linkedinicon.png" alt="linkedhin"></a></li>
+            <li><a href="mvector"><img src="./images/./Vector.png" alt="Mvector"></a></li>
+            <li><a href="https://github.com/divinecharlotte"><img src="./images/./github.png" alt="github"></a>
+            </li>
+            <li><a href="angelist"><img src="./images/./angellist.png" alt="angellist"></a></li>
+          </ul>
         </div>
-    </section>
-
-
-    <!-- /**************************************************/ -->
-
-    <section class="box">
-
-        <div class="main-container">
-            <div class="part1">
-                <img class="picture" src="./images/./SnapshootPortfolio(1).png" alt="image">
-                <img class="pic" src="./images/21.png" alt="image">
-            </div>
-            <div class="part2">
-                <h2 class="heading">Tonic</h2>
-                <div class="structure">
-                    <h4 class="canopy">CANOPY</h4>
-                    <img src="./images/./counter.png" alt="counter">
-                    <h4 class="transpalent">Back End Dev</h4>
-                    <img src="./images/./counter.png" alt="counter">
-                    <h4 class="transpalent">2015</h4>
-                </div>
-                <!-- </div> -->
-                <div class="box-content">
-                    <p>A daily selection of privately
-                        personalized reads; no accounts or
-                        sign-ups required.
-                    </p>
-                </div>
-                <div>
-                    <ul class="flex-container">
-                        <li>html</li>
-                        <li>css</li>
-                        <li>javascript</li>
-                    </ul>
-                </div>
-                <div><button type="button" class="about">see project</button></div>
-            </div>
+        <a href="#" class="btn btn-light border-primary text-primary">Get my resume</a>
+      </div>
+      <div class="col-md py-2">
+        <div class="arrow col-md d-flex " style="justify-content: space-between;">
+          <h3 class="lan">Languages </h3>
+          <img class="election" src="./images/./arrow1.png" alt="" style="width: 15px;height: 15px;">
         </div>
-
-
-        <div class="main-container">
-            <img class="picture" src="./images/./SnapshootPortfolio(2).png" alt="image">
-            <div class="part22">
-                <div>
-                    <h2 class="headingb">Multi-Post <br>
-                        Stories</h2>
-                    <h2 class="headinga">Multi-Post
-                        Stories</h2>
-                    <div class="structure">
-                        <h4 class="canopy">CANOPY</h4>
-                        <img src="./images/./counter.png" alt="counter">
-                        <h4 class="transpalent">Back End Dev</h4>
-                        <img src="./images/./counter.png" alt="counter">
-                        <h4 class="transpalent">2015</h4>
-                    </div>
-                </div>
-                <div class="box-content">
-                    <p>A daily selection of privately
-                        personalized reads; no accounts or
-                        sign-ups required.
-                    </p>
-                </div>
-                <div>
-                    <ul class="flex-container">
-                        <li>html</li>
-                        <li>css</li>
-                        <li>javascript</li>
-                    </ul>
-                </div>
-                <div><button type="button" class="about">see project</button></div>
-            </div>
-            <div class="part11">
-                <img class="pic" src="./images/22.png" alt="image">
-            </div>
+        <ul class="mb d-grid" style="list-style: none;gap:20px;padding: 0px;">
+          <li><img src="./images/./Frame9(1).png" alt="image"></li>
+          <li><img src="./images/./Frame10.png" alt="image"></li>
+          <li><img src="./images/./Frame11.png" alt="image"></li>
+        </ul>
+       
+        <div class="arrow d-flex" style="justify-content:space-between">
+          <h3 class="lan">FRAMEWORKS</h3>
+          <p><img class="election2" src="./images/./left.png" alt=""></p>
         </div>
-
-
-        <div class="main-container">
-            <div class="part1">
-                <img class="picture" src="./images/./SnapshootPortfolio.png" alt="image">
-                <img class="pic" src="./images/tonic.jpg" alt="image">
-            </div>
-            <div class="part2">
-                <div>
-                    <h2 class="heading">Tonic</h2>
-                    <div class="structure">
-                        <h4 class="canopy">CANOPY</h4>
-                        <img src="./images/./counter.png" alt="counter">
-                        <h4 class="transpalent">Back End Dev</h4>
-                        <img src="./images/./counter.png" alt="counter">
-                        <h4 class="transpalent">2015</h4>
-                    </div>
-                </div>
-                <div class="box-content">
-                    <p>A daily selection of privately
-                        personalized reads; no accounts or
-                        sign-ups required.
-                    </p>
-                </div>
-                <div>
-                    <ul class="flex-container">
-                        <li>html</li>
-                        <li>css</li>
-                        <li>javascript</li>
-                    </ul>
-                </div>
-                <div><button type="button" class="about">see project</button></div>
-            </div>
+        <p><img class="separator" src="./images/./SeparatorBottom.png" alt=""></p>
+        <div class="arrow d-flex" style="justify-content:space-between">
+          <h3 class="lan">Skills</h3>
+          <p><img class="election2" src="./images/./left.png" alt=""></p>
         </div>
-
-        <div class="main-container">
-            <img class="picture" src="./images/./SnapshootPortfolio(3).png" alt="image">
-            <div class="part22">
-                <div>
-                    <h2 class="headingb">Multi-Post <br>
-                        Stories</h2>
-                    <h2 class="headinga">Multi-Post
-                        Stories</h2>
-                    <div class="structure">
-                        <h4 class="canopy">CANOPY</h4>
-                        <img src="./images/./counter.png" alt="counter">
-                        <h4 class="transpalent">Back End Dev</h4>
-                        <img src="./images/./counter.png" alt="counter">
-                        <h4 class="transpalent">2015</h4>
-                    </div>
-                </div>
-                <div class="box-content">
-                    <p>A daily selection of privately
-                        personalized reads; no accounts or
-                        sign-ups required.
-                    </p>
-                </div>
-                <div>
-                    <ul class="flex-container">
-                        <li>html</li>
-                        <li>css</li>
-                        <li>javascript</li>
-                    </ul>
-                </div>
-                <div><button type="button" class="about">see project</button></div>
-            </div>
-            <div class="part11">
-                <img class="pic" src="./images/23.png" alt="image">
-            </div>
-        </div>
-    </section>
-    <section class="about-me">
-        <div class="me">
-            <div class="part1ml">
-                <h2 class="abm">
-                    About <br> Myself
-                </h2>
-
-                <p class="text">
-                    Hello I'm a software developer! I can help 
-                    you build a product , feature or website 
-                    Look through some of my work and 
-                    experience! If you like what you see and 
-                    have a project you need coded, don’t 
-                    hestiate to contact me.
-                </p>
-
-                <p class="connect"> <a href="#">LET'S CONNECT</a> </p>
-                <div class="social-icons">
-                    <ul>
-                        <li><a href="https://twitter.com/divine_maina"><img src="./images/./twitter.png"
-                                    alt="twiter"></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/charlotte-divine-dusenge-31b19017a/"><img
-                                    src="./images/./Linkedinicon.png" alt="linkedhin"></a></li>
-                        <li><a href="mvector"><img src="./images/./Vector.png" alt="Mvector"></a></li>
-                        <li><a href="https://github.com/divinecharlotte"><img src="./images/./github.png"
-                                    alt="github"></a>
-                        </li>
-                        <li><a href="angelist"><img src="./images/./angellist.png" alt="angellist"></a></li>
-                    </ul>
-                </div>
-                <p><button type="button" class="about2">Get my resume</button></p>
-            </div>
-            <div class="languages">
-                <div class="arrow">
-                    <h3 class="lan">Languages </h3>
-                    <img class="election" src="./images/./arrow1.png" alt="">
-                </div>
-                <ul class="mb">
-                    <li><img src="./images/./Frame9(1).png" alt="image"></li>
-                    <li><img src="./images/./Frame10.png" alt="image"></li>
-                    <li><img src="./images/./Frame11.png" alt="image"></li>
-                </ul>
-                <ul class="dsk">
-                    <li><img src="./images/Frame9.png" alt="image"></li>
-                    <li><img src="./images/Frame1copy.png" alt="image"></li>
-                    <li><img src="./images/Frame11copy.png" alt="image"></li>
-                </ul>
-                <div class="arrow">
-                    <h3 class="lan">FRAMEWORKS</h3>
-                    <p><img class="election2" src="./images/./left.png" alt=""></p>
-                </div>
-                <p><img class="separator" src="./images/./SeparatorBottom.png" alt=""></p>
-                <div class="arrow">
-                    <h3 class="lan">Skills</h3>
-                    <p><img class="election2" src="./images/./left.png" alt=""></p>
-                </div>
-                <p><img class="separator" src="./images/./SeparatorBottom.png" alt=""></p>
-
-            </div>
-        </div>
-    </section>
-    <div class="foot">
-        <div class="foot-again">
-            <h2 class="contact">
-                Contact me
-            </h2>
-            <p>
-                If you have an application you are interested in <br>
-                developing, a feature that you need built or a project <br>
-                that needs coding. I’d love to help with it
-            </p>
-
-            <form class="forma" action="/action_page.php">
-                <input class="name1" type="text" id="text" name="name" value="Alexandra Loremipsum"><br>
-                <input type="email" id="email" name="email" value="alexandra@gmail.com"><br>
-                <textarea rows="10" maxlength="500" placeholder="Write your message here" name="message"
-                    required></textarea>
-                <input type="submit" value="Get It Touch">
-            </form>
-        </div>
+        <p><img class="separator" src="./images/./SeparatorBottom.png" alt=""></p>
+      </div>
     </div>
+  
+  </section>
+  <section id="contact">
+    <div class="foot-again d-flex justify-content-center px-3 py-5 bg-primary " style="border-top-left-radius:100px;flex-direction: column;font-size:20px;align-items: center;">
+      <h2 class="contact" style="color: #ebebff;">
+        Contact me
+      </h2>
+      <div class=" text-center" style="color: white;">
+        <p>
+          If you have an application you are interested in <br>
+          developing, a feature that you need built or a project
+          <br>
+          that needs coding. I’d love to help with it
+        </p>
+      </div>
+      <form class="forma d-grid" action="/action_page.php">
+        <input class="name1" type="text" id="text" name="name" value="Alexandra Loremipsum"><br>
+        <input class="" type="email" id="email" name="email" value="alexandra@gmail.com"><br>
+        <textarea class="" rows="10" maxlength="500" placeholder="Write your message here" name="message"
+          required></textarea>
+        <a href="#" class="btn btn-light border-primary text-primary">get it touch</a>
+      </form>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html>  
